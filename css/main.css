@@ -113,3 +113,7 @@
   clear: both;
   padding: 0;
 }
+
+footer.page-footer {
+  background-color: #D44500;
+}
