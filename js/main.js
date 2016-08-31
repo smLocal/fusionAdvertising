@@ -1,6 +1,12 @@
 console.log("js is loaded");
 
 var options = [
+    {selector: '.class', offset: 200, callback: 'globalFunction()' },
+    {selector: '.other-class', offset: 200, callback: 'globalFunction()' },
+  ];
+  Materialize.scrollFire(options);
+
+var options = [
     {selector: '#staggered-test', offset: 50, callback: function(el) {
       Materialize.toast("This is our ScrollFire Demo!", 1500 );
     } },
