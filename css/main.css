@@ -56,37 +56,10 @@
   font-size: 16px;
 }
 
-.topAd {
-  max-width: 100%;
-  height: auto;
-  border-color: black;
-  text-shadow: white 0px 0px 2px;
-  font-size: 16px;
-  display: inline-block;
-  position: relative;
-  bottom:50%;
-  right: 0;
-  left: 0;
-}
-
-.bottomAd {
-  width: 30%;
-  height: auto;
-  border: solid 2px;
-}
-
 #large {
   width: 90%;
   height: auto;
   bottom: 0;
-}
-
-#brown {
-  width: 30%;
-  height: auto;
-  border: solid 2px;
-  text-shadow: white 0px 0px 2px;
-  font-size: 16px;
 }
 
 .float {
@@ -100,8 +73,13 @@ footer.page-footer {
   background-color: #D44500;
 }
 
+.nav-wrapper {
+  background-color: #D44500;
+}
+
 .body {
   background-color: #6F777D;
+  /*background-color: yellow;*/
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -123,15 +101,15 @@ footer.page-footer {
 
 .editorial {
   margin-top: 0;
-  /*background-color: black;*/
+  background-color: black;
   z-index: 1;
   float: left;
-  width: 60%
+  width: 75%
 }
 
 .blockAds {
   float: left;
-  width: 30%;
+  width: 15%;
 }
 
 .rows {
@@ -139,7 +117,8 @@ footer.page-footer {
 }
 
 .left {
-  width: 100%;
+  width: 161.4%;
+  margin-left: 0;
 }
 .one {
   width: 50%;
