@@ -95,6 +95,7 @@ footer.page-footer {
 }
 
 .body {
+  background-color: #6F777D;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -104,8 +105,41 @@ footer.page-footer {
   flex: 1 0 auto;
 }
 
-.long {
-  margin-left: 0;
-  width: 15%;
-  border: clear;
+.row {
+  width: 100%;
 }
+
+.long {
+  float: left;
+  /*margin-left: 0;*/
+  width: 15%;
+}
+
+.editorial {
+  margin-top: 0;
+  background-color: black;
+  float: left;
+  width: 70%
+}
+
+.blockAds {
+  float: left;
+  width: 15%;
+}
+
+.rows {
+  width: 15%;
+}
+
+.left {
+  width: 100%;
+}
+/*.one {
+  width: 100%;
+}*/
+
+/*.two {
+  float: left;
+  width: 7.5%;
+}*/
+
