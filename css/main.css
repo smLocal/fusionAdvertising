@@ -1,0 +1,131 @@
+/* multi-size logo */
+@media all and (min-width: 858px) {
+  .logo {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media not all and (min-width: 858px){
+  .logo {
+    max-width: 75%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media not all and (min-width: 500px){
+  .logo {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+#container {
+  min-height: 100%;
+  text-align: center;
+  margin-bottom: -330px;
+  position: relative;
+}
+
+.element-invisible {
+  color: transparent;
+}
+
+.links {
+  color: rgb(255, 172, 42);
+  font-size: 1.8vw;
+}
+
+.catcher {
+  padding-top: 20%;
+  color: rgb(255, 172, 42);
+  text-transform: uppercase;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
+  font-size: 2.2vw;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+#top {
+  width: 90%;
+  height: auto;
+  text-shadow: white 0px 0px 2px;
+  font-size: 16px;
+}
+
+#large {
+  width: 90%;
+  height: auto;
+  bottom: 0;
+}
+
+.float {
+  float: right;
+  width: 25%;
+  height: auto;
+  background-size: 150px;
+}
+
+footer.page-footer {
+  background-color: #D44500;
+}
+
+.nav-wrapper {
+  background-color: #D44500;
+}
+
+.body {
+  background-color: #6F777D;
+  /*background-color: yellow;*/
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.row {
+  width: 100%;
+}
+
+.long {
+  float: left;
+  width: 10%;
+
+}
+
+.editorial {
+  margin-top: 0;
+  background-color: black;
+  z-index: 1;
+  float: left;
+  width: 75%
+}
+
+.blockAds {
+  float: left;
+  width: 15%;
+}
+
+.rows {
+  width: 15%;
+}
+
+.left {
+  width: 161.4%;
+  margin-left: 0;
+}
+.one {
+  width: 50%;
+}
+
+.two {
+  float: left;
+  width: 50%;
+}
+
