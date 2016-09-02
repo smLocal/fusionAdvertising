@@ -62,7 +62,7 @@ footer.page-footer {
 }
 
 .long {
-  float: left;
+  /*float: left;*/
   width: 10%;
 
 }
@@ -71,14 +71,16 @@ footer.page-footer {
   margin-top: 0;
   font-size: 1.1vw;
   z-index: 1;
-  float: left;
-  width: 75%;
+/*  float: left;
+  width: 75%;*/
+}
+.row .col {
+  float: none;
 }
 
 .blockAds {
+  margin-top: 0;
   background-color: white;
-  float: left;
-  width: 15%;
 }
 
 .rows {
@@ -101,3 +103,6 @@ footer.page-footer {
   width: 50%;
 }
 
+.diamond {
+  margin-left: 13%;
+}
