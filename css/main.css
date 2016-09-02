@@ -100,8 +100,8 @@ footer.page-footer {
 
 .editorial {
   margin-top: 0;
-  background-color: black;
-  z-index: 1;
+/*  background-color: black;
+*/  z-index: 1;
   float: left;
   width: 75%
 }
