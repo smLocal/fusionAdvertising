@@ -37,53 +37,7 @@ h1.retroshadow {
   letter-spacing: .05em;
   text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
 }
-/*
-#container {
-  min-height: 100%;
-  text-align: center;
-  margin-bottom: -330px;
-  position: relative;
-}
 
-.element-invisible {
-  color: transparent;
-}
-
-.links {
-  color: rgb(255, 172, 42);
-  font-size: 1.8vw;
-}
-
-.catcher {
-  padding-top: 20%;
-  color: rgb(255, 172, 42);
-  text-transform: uppercase;
-  text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
-  font-size: 2.2vw;
-  font-family: Helvetica;
-  font-weight: bold;
-}
-
-#top {
-  width: 90%;
-  height: auto;
-  text-shadow: white 0px 0px 2px;
-  font-size: 16px;
-}
-
-#large {
-  width: 90%;
-  height: auto;
-  bottom: 0;
-}
-
-.float {
-  float: right;
-  width: 25%;
-  height: auto;
-  background-size: 150px;
-}
-*/
 footer.page-footer {
   background-color: #D44500;
 }
@@ -115,9 +69,6 @@ footer.page-footer {
 
 .editorial {
   margin-top: 0;
-/*  background-color: black;
-*/
-
   font-size: 1.1vw;
   z-index: 1;
   float: left;
@@ -125,6 +76,7 @@ footer.page-footer {
 }
 
 .blockAds {
+  background-color: white;
   float: left;
   width: 15%;
 }
