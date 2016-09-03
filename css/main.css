@@ -57,9 +57,9 @@ footer.page-footer {
   flex: 1 0 auto;
 }
 
-.row {
+/*.row {
   width: 100%;
-}
+}*/
 
 .long {
   /*float: left;*/
@@ -70,7 +70,6 @@ footer.page-footer {
 .editorial {
   margin-top: 0;
   font-size: 1.1vw;
-  z-index: 1;
 /*  float: left;
   width: 75%;*/
 }
