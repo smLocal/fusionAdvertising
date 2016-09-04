@@ -46,6 +46,10 @@ footer.page-footer {
   background-color: #D44500;
 }
 
+.container {
+  position: relative;
+}
+
 .body {
   background-color: #6F777D;
   display: flex;
@@ -64,23 +68,28 @@ footer.page-footer {
 .long {
   /*float: left;*/
   width: 10%;
+  position:absolute;
+
 
 }
 
 .editorial {
+  position:absolute;
   margin-top: 0;
   font-size: 1.1vw;
 /*  float: left;
   width: 75%;*/
 }
+
+.blockAds {
+  position:absolute;
+  margin-top: 0;
+  background-color: white;
+}
 .row .col {
   float: none;
 }
 
-.blockAds {
-  margin-top: 0;
-  background-color: white;
-}
 
 .rows {
   width: 15%;
