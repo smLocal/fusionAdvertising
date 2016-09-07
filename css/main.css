@@ -69,16 +69,12 @@ footer.page-footer {
   /*float: left;*/
   width: 10%;
   position:absolute;
-
-
 }
 
 .editorial {
   position:absolute;
   margin-top: 0;
   font-size: 1.1vw;
-/*  float: left;
-  width: 75%;*/
 }
 
 .blockAds {
