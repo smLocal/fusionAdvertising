@@ -66,7 +66,6 @@ footer.page-footer {
 }*/
 
 .long {
-  /*float: left;*/
   width: 10%;
   position:absolute;
 }
@@ -86,7 +85,6 @@ footer.page-footer {
   float: none;
 }
 
-
 .rows {
   width: 15%;
 }
@@ -102,11 +100,12 @@ footer.page-footer {
 
 .two {
   float: left;
-  /*margin-left: 1%;*/
   margin-top: 10%;
   width: 50%;
 }
 
 .diamond {
   margin-left: 13%;
+  /*text-align: center;
+  width: 100%;*/
 }
